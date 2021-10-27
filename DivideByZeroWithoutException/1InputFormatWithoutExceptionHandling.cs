@@ -2,16 +2,16 @@
 
 namespace DivideByZeroWithoutException
 {
-    public class Program
+    public class InputFormatWithoutExceptionHandling
     {
         static void Main(string[] args)
         {
             // get numerator
-            Console.Write("Please enter an integer numerator: ");
+            Console.Write("Input the numerator: ");
             double numerator = Convert.ToDouble(Console.ReadLine());
 
             // get denominator
-            Console.Write("Please enter an integer denominator: ");
+            Console.Write("Input the denominator: ");
             double denominator = Convert.ToDouble(Console.ReadLine());
 
             // divide the two integers, then display the result
